@@ -12,8 +12,7 @@ View all Customers .
 
 ![screencapture-localhost-intern-customer-php-2021-01-22-14_30_54](https://user-images.githubusercontent.com/58353352/105471332-9fd5d780-5cc0-11eb-8dd3-b9a169938379.png)
 
-
-![screencapture-localhost-intern-transfer-php-2021-01-22-14_34_03](https://user-images.githubusercontent.com/58353352/105471642-f80cd980-5cc0-11eb-8863-413777d34d4e.png)
+![aaa intern](https://user-images.githubusercontent.com/58353352/105472639-33f46e80-5cc2-11eb-9279-a701ea11c176.JPG)
 
 
 
