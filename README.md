@@ -18,5 +18,13 @@ View all Customers .
 
 
 
+![screencapture-localhost-intern-customer-php-2021-01-22-14_35_04](https://user-images.githubusercontent.com/58353352/105471824-2be7ff00-5cc1-11eb-970d-42cd9805248a.png)
+
+
+
+
+
+
+
 
 
