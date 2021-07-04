@@ -55,18 +55,18 @@ if (!isset($_GET['email_id'])) {
             </nav>
 
             <?php
-            $stmt = $pdo->prepare("SELECT * FROM customer where email_id = ':email'");
-            $stmt->bindParam(':email', $email);
-            $email = $_GET['email_id'];
-            echo " check $email ";
-            $stmt->execute();
+            // $stmt = $pdo->prepare("SELECT * FROM customer where email_id = ':email'");
+            // $stmt->bindParam(':email', $email);
+            // $email = $_GET['email_id'];
+            // echo " check $email ";
+            // $stmt->execute();
 
             $stmtt = $pdo->query("SELECT email_id FROM customer");
             $rows = $stmtt->fetchAll(PDO::FETCH_ASSOC);
             $clicked = $_GET['email_id'];
             ?>
             <h3> Hope </h3>
-            <form class="form-horizontal " action="send.php" method="post">
+            <form class="form-horizontal" action="send.php" method="post">
                 <div class="form-group mb-3 row ">
                     <label class="col-sm-4 col-form-label" for="sendto"><b>Send to</b></label>
                     <div class="col-sm-8">
