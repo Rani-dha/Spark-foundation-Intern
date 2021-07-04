@@ -1,60 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Web development and Design Intern</title>
-    <style>
-        a {
-            margin: 5x;
-        }
-
-        td {
-            width: 30%;
-            height: 30%;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Spark Bank</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="lead">
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top bg-info">
-
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+<body>
+    <div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <!-- <img  class="d-none d-sm-none d-md-none d-lg-block" src="spark.png" style="width:5%; height:5%;"> visible in lg and above screens -->
+            <a href="#" class="navbar-brand text-white" style="margin-left: 3%;"> The Spark Foundation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toogleMobileMenu" aria-controls="toogleMobileMenu" aria-expanded="false" aria-label="Toogle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="index.php"></a>
-
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span style="margin-right:5px;" class="fa fa-home"></span>Home</a></li>
-                    <li class="nav-item text-white"><a class="nav-link" href="customer.php">Customers</a></li>
-                    <li class="nav-item text-white"><a class="nav-link" href="transfer.php">Transfer Money</a></li>
-
+            <div class="collapse  navbar-collapse" id="toogleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center" style="margin-right: 3%;">
+                    <li>
+                        <a class="nav-link active" href='#'> Home </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href='customer.php'> Customers </a>
+                    </li>
                 </ul>
-
             </div>
-        </div>
-    </nav>
-
+        </nav>
     </div>
-    </div>
-    <div class="row row-content align-items-center">
-
-        <div class="col col-sm order-sm-first col-md">
-            <div class="media">
-                <img class="d-flex mr-3 img-thumbnail align-self-center" src="savingsjpg.jpg" alt="family img" style="margin:76px 50px 10px 50px;">
-                <div class="media-body" style="margin:96px 50px 10px 50px;">
-                    <h3 class="text-muted"><em>The Spark Foundation Bank</em></h3>
-                    <p class="text-muted">The Spark Foundation is an Indian multinational, public sector banking and financial services company. It is the third largest public sector bank in India, with 131 million customers, a total business of US$218 billion, and a global presence of 100 overseas offices</p>
-                    <a class="btn btn-outline-info btn-small" href="customer.php" role="button" style="margin:5px;">Customers</a>
-                    <a class="btn btn-outline-info btn-small" href="transfer.php" role="button" style="margin:5px;">Transfer money</a><br /><br />
-                </div>
+    <div class="container" style="margin-top:5%;">
+        <div>
+            <div class="row ">
+                <img class="d-block d-sm-block d-md-block d-lg-none" src="bank.jpg" alt="bank image">
+                <h5 style="margin-top:0%;"> <em> About us</em></h5>
+                <p class=" lead col-md-12 col-lg-5 col-xs-12 float-start">
+                    The Spark Foundation Bank is an Indian multinational, public sector banking and financial services company.
+                    It is the third largest public sector bank in India, with 131 million customers,
+                    a total business of US$218 billion, and a global presence of 100 overseas
+                    offices<a href="https://www.thesparksfoundationsingapore.org/join-us/internship-positions/"> to know more...</a><br /></p>
             </div>
+            <img class="col-md-5 float-end d-none d-lg-block" style="margin-top:-20%; width:55%" src="bank.jpg" alt="bank image">
         </div>
     </div>
+        <!-- Include every Bootstrap JavaScript plugin and dependency with one of our two bundles.
+     Both bootstrap.bundle.js and bootstrap.bundle.min.js include Popper for our tooltips and popovers. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
