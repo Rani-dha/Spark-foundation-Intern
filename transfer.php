@@ -65,7 +65,7 @@ if (!isset($_GET['email_id'])) {
             $rows = $stmtt->fetchAll(PDO::FETCH_ASSOC);
             $clicked = $_GET['email_id'];
             ?>
-   <h3> Hope </h3>
+            <h3> Hope </h3>
             <form class="form-horizontal " action="send.php" method="post">
                 <div class="form-group mb-3 row ">
                     <label class="col-sm-4 col-form-label" for="sendto"><b>Send to</b></label>
@@ -73,8 +73,8 @@ if (!isset($_GET['email_id'])) {
                         <select name="sendto" class="form-control">
                             <?php
                             foreach ($rows as $row) { ?>
-                                <option value="<?php echo $row['email_id']; ?>"><?php echo $row['email_id']; ?>
-                                <?php } ?>
+                                <option value="<?php echo $row['email_id']; ?>"><?php echo $row['email_id'];
+                            } ?>
                         </select>
                     </div>
                 </div>
