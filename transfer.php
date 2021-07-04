@@ -13,8 +13,9 @@ if (!isset($_GET['email_id'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transfer money</title>
-    <!-- Bootstrap Font Icon CSS -->
+    <!-- Bootstrap5  CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Sweet alert Js -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
