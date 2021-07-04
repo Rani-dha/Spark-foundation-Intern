@@ -55,7 +55,7 @@ if (!isset($_GET['email_id'])) {
             </nav>
 
             <?php
-            $stmt = $pdo->prepare("SELECT * FROM `customer` where email_id = ':email'");
+            $stmt = $pdo->prepare("SELECT * FROM customer where email_id = ':email'");
             $stmt->bindParam(':email', $email);
             $email = $_GET['email_id'];
             $stmt->execute();
