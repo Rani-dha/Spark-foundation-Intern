@@ -61,7 +61,7 @@ if (!isset($_GET['email_id'])) {
             echo " check $email ";
             $stmt->execute();
 
-            $stmtt = $pdo->query("SELECT id, email_id FROM customer");
+            $stmtt = $pdo->query("SELECT email_id FROM customer");
             $rows = $stmtt->fetchAll(PDO::FETCH_ASSOC);
             $clicked = $_GET['email_id'];
             ?>
