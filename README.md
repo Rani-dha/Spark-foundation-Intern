@@ -1,6 +1,7 @@
 ##  The Sparks Foundation Intern project
 
 ##### Now the project is live at [Banking System](https://intern-sparkbank.herokuapp.com/) Do check it out :D
+##### Note: The website is made responsive using Bootstrap5.
 
 Task 1: Basic Banking System
 * Create a simple dynamic website which has the following specs.
