@@ -24,14 +24,32 @@ Customer > Transfer Money > Select customer to transfer to > View Transactions m
 <img width="960" alt="3" src="https://user-images.githubusercontent.com/58353352/125118150-ec955980-e10c-11eb-881c-6b961ea52dee.PNG">
 
 ###
+##
 ##### Transaction is successful!
 
 <img width="960" alt="4" src="https://user-images.githubusercontent.com/58353352/125118162-ef904a00-e10c-11eb-8065-a6a50cc8ebb7.PNG">
 
 ###
+###
 ##### Viewing the Transaction made
 
 <img width="960" alt="5" src="https://user-images.githubusercontent.com/58353352/125118185-f61ec180-e10c-11eb-80ce-95cd075be533.PNG">
+
+###
+##### Viewing all customers
+<img width="960" alt="6" src="https://user-images.githubusercontent.com/58353352/125118322-2c5c4100-e10d-11eb-8a68-e0f1c8fb86f5.PNG">
+
+###
+##### Linus have 50,000 rs but mistakenly he tries to send 10000000 rs to Dennis, so pop up alert says "Insufficient balance" and returns to customers page.
+<img width="960" alt="7" src="https://user-images.githubusercontent.com/58353352/125118328-2f573180-e10d-11eb-9caf-d901e2e9d49e.PNG">
+###
+
+
+
+
+<img width="960" alt="8" src="https://user-images.githubusercontent.com/58353352/125118337-32522200-e10d-11eb-83a9-11e508398b32.PNG">
+
+
 
 
 
